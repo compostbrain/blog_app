@@ -44,6 +44,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem "rb-fsevent", "0.9.8"
+  gem 'guard-rspec', require: false
 end
 group :test do
   gem 'capybara', '2.7.1'
